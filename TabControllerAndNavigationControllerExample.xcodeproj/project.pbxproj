@@ -14,6 +14,15 @@
 		B00CC70F1DF770E40082A026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00CC70D1DF770E40082A026 /* LaunchScreen.storyboard */; };
 		B00CC71A1DF770E40082A026 /* TabControllerAndNavigationControllerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC7191DF770E40082A026 /* TabControllerAndNavigationControllerExampleTests.swift */; };
 		B00CC7251DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC7241DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests.swift */; };
+		B00CC73C1DF7716A0082A026 /* TabTwoPageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC73A1DF7716A0082A026 /* TabTwoPageTwoViewController.swift */; };
+		B00CC73D1DF7716A0082A026 /* TabTwoPageTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00CC73B1DF7716A0082A026 /* TabTwoPageTwoViewController.xib */; };
+		B00CC7401DF7717B0082A026 /* TabOnePageTwoViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC73E1DF7717B0082A026 /* TabOnePageTwoViewViewController.swift */; };
+		B00CC7411DF7717B0082A026 /* TabOnePageTwoViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00CC73F1DF7717B0082A026 /* TabOnePageTwoViewViewController.xib */; };
+		B00CC7461DF771A10082A026 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC7441DF771A10082A026 /* TabTwoViewController.swift */; };
+		B00CC7471DF771A10082A026 /* TabTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00CC7451DF771A10082A026 /* TabTwoViewController.xib */; };
+		B00CC74A1DF771AE0082A026 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC7481DF771AE0082A026 /* TabOneViewController.swift */; };
+		B00CC74B1DF771AE0082A026 /* TabOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00CC7491DF771AE0082A026 /* TabOneViewController.xib */; };
+		B00CC74D1DF771E80082A026 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC74C1DF771E80082A026 /* RootTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		B00CC7201DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabControllerAndNavigationControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00CC7241DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerAndNavigationControllerExampleUITests.swift; sourceTree = "<group>"; };
 		B00CC7261DF770E50082A026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00CC73A1DF7716A0082A026 /* TabTwoPageTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTwoPageTwoViewController.swift; sourceTree = "<group>"; };
+		B00CC73B1DF7716A0082A026 /* TabTwoPageTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabTwoPageTwoViewController.xib; sourceTree = "<group>"; };
+		B00CC73E1DF7717B0082A026 /* TabOnePageTwoViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOnePageTwoViewViewController.swift; sourceTree = "<group>"; };
+		B00CC73F1DF7717B0082A026 /* TabOnePageTwoViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOnePageTwoViewViewController.xib; sourceTree = "<group>"; };
+		B00CC7441DF771A10082A026 /* TabTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
+		B00CC7451DF771A10082A026 /* TabTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabTwoViewController.xib; sourceTree = "<group>"; };
+		B00CC7481DF771AE0082A026 /* TabOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
+		B00CC7491DF771AE0082A026 /* TabOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneViewController.xib; sourceTree = "<group>"; };
+		B00CC74C1DF771E80082A026 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,10 @@
 		B00CC7031DF770E40082A026 /* TabControllerAndNavigationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				B00CC7041DF770E40082A026 /* AppDelegate.swift */,
-				B00CC7061DF770E40082A026 /* ViewController.swift */,
-				B00CC7081DF770E40082A026 /* Main.storyboard */,
-				B00CC70B1DF770E40082A026 /* Assets.xcassets */,
-				B00CC70D1DF770E40082A026 /* LaunchScreen.storyboard */,
-				B00CC7101DF770E40082A026 /* Info.plist */,
+				B00CC7361DF771200082A026 /* Controllers */,
+				B00CC7341DF7710A0082A026 /* Views */,
+				B00CC7331DF771030082A026 /* Supporting */,
+				B00CC7321DF770F90082A026 /* Application */,
 			);
 			path = TabControllerAndNavigationControllerExample;
 			sourceTree = "<group>";
@@ -123,6 +139,81 @@
 				B00CC7261DF770E50082A026 /* Info.plist */,
 			);
 			path = TabControllerAndNavigationControllerExampleUITests;
+			sourceTree = "<group>";
+		};
+		B00CC7321DF770F90082A026 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC7041DF770E40082A026 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		B00CC7331DF771030082A026 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC70B1DF770E40082A026 /* Assets.xcassets */,
+				B00CC70D1DF770E40082A026 /* LaunchScreen.storyboard */,
+				B00CC7081DF770E40082A026 /* Main.storyboard */,
+				B00CC7061DF770E40082A026 /* ViewController.swift */,
+				B00CC7101DF770E40082A026 /* Info.plist */,
+			);
+			name = Supporting;
+			sourceTree = "<group>";
+		};
+		B00CC7341DF7710A0082A026 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC7391DF771530082A026 /* TabTwoPageTwoView */,
+				B00CC7381DF771480082A026 /* TabOnePageTwoView */,
+				B00CC7371DF771370082A026 /* TabTwoView */,
+				B00CC7351DF771110082A026 /* TabOneView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B00CC7351DF771110082A026 /* TabOneView */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC7481DF771AE0082A026 /* TabOneViewController.swift */,
+				B00CC7491DF771AE0082A026 /* TabOneViewController.xib */,
+			);
+			name = TabOneView;
+			sourceTree = "<group>";
+		};
+		B00CC7361DF771200082A026 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC74C1DF771E80082A026 /* RootTabBarViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B00CC7371DF771370082A026 /* TabTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC7441DF771A10082A026 /* TabTwoViewController.swift */,
+				B00CC7451DF771A10082A026 /* TabTwoViewController.xib */,
+			);
+			name = TabTwoView;
+			sourceTree = "<group>";
+		};
+		B00CC7381DF771480082A026 /* TabOnePageTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC73E1DF7717B0082A026 /* TabOnePageTwoViewViewController.swift */,
+				B00CC73F1DF7717B0082A026 /* TabOnePageTwoViewViewController.xib */,
+			);
+			name = TabOnePageTwoView;
+			sourceTree = "<group>";
+		};
+		B00CC7391DF771530082A026 /* TabTwoPageTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC73A1DF7716A0082A026 /* TabTwoPageTwoViewController.swift */,
+				B00CC73B1DF7716A0082A026 /* TabTwoPageTwoViewController.xib */,
+			);
+			name = TabTwoPageTwoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +327,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00CC70F1DF770E40082A026 /* LaunchScreen.storyboard in Resources */,
+				B00CC7471DF771A10082A026 /* TabTwoViewController.xib in Resources */,
+				B00CC74B1DF771AE0082A026 /* TabOneViewController.xib in Resources */,
 				B00CC70C1DF770E40082A026 /* Assets.xcassets in Resources */,
+				B00CC7411DF7717B0082A026 /* TabOnePageTwoViewViewController.xib in Resources */,
 				B00CC70A1DF770E40082A026 /* Main.storyboard in Resources */,
+				B00CC73D1DF7716A0082A026 /* TabTwoPageTwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +357,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00CC73C1DF7716A0082A026 /* TabTwoPageTwoViewController.swift in Sources */,
+				B00CC74A1DF771AE0082A026 /* TabOneViewController.swift in Sources */,
+				B00CC74D1DF771E80082A026 /* RootTabBarViewController.swift in Sources */,
 				B00CC7071DF770E40082A026 /* ViewController.swift in Sources */,
+				B00CC7461DF771A10082A026 /* TabTwoViewController.swift in Sources */,
+				B00CC7401DF7717B0082A026 /* TabOnePageTwoViewViewController.swift in Sources */,
 				B00CC7051DF770E40082A026 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
