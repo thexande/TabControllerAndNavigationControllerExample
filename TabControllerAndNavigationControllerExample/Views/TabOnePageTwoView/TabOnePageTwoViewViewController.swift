@@ -12,7 +12,7 @@ class TabOnePageTwoViewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Tab One Page Two"
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +22,9 @@ class TabOnePageTwoViewViewController: UIViewController {
     }
     
 
+    @IBAction func presentModalClicked(_ sender: Any) {
+        self.present(ModalViewViewController(), animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 

@@ -21,9 +21,9 @@ class RootTabBarViewController: UITabBarController, UITabBarControllerDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let tabOne = TabOneViewController()
+        let tabOne = UINavigationController(rootViewController: TabOneViewController())
         tabOne.title = "Tab One"
-        let tabTwo = TabTwoViewController()
+        let tabTwo = UINavigationController(rootViewController: TabTwoViewController())
         tabTwo.title = "Tab Two"
         self.viewControllers = [tabOne, tabTwo]
     }

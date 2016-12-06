@@ -12,7 +12,7 @@ class TabTwoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Tab Two"
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +21,9 @@ class TabTwoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func showPageTwoClicked(_ sender: Any) {
+        self.navigationController?.pushViewController(TabTwoPageTwoViewController(), animated: true)
+    }
 
     /*
     // MARK: - Navigation

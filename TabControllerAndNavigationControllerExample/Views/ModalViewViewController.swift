@@ -1,5 +1,5 @@
 //
-//  TabOneViewController.swift
+//  ModalViewViewController.swift
 //  TabControllerAndNavigationControllerExample
 //
 //  Created by Alexander Murphy on 12/6/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TabOneViewController: UIViewController {
+class ModalViewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,9 @@ class TabOneViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func dismissClicked(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

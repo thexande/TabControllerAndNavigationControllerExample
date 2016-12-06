@@ -21,6 +21,8 @@
 		B00CC74A1DF771AE0082A026 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC7481DF771AE0082A026 /* TabOneViewController.swift */; };
 		B00CC74B1DF771AE0082A026 /* TabOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00CC7491DF771AE0082A026 /* TabOneViewController.xib */; };
 		B00CC74D1DF771E80082A026 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC74C1DF771E80082A026 /* RootTabBarViewController.swift */; };
+		B00CC7561DF77B020082A026 /* ModalViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00CC7541DF77B020082A026 /* ModalViewViewController.swift */; };
+		B00CC7571DF77B020082A026 /* ModalViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B00CC7551DF77B020082A026 /* ModalViewViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		B00CC7481DF771AE0082A026 /* TabOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
 		B00CC7491DF771AE0082A026 /* TabOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneViewController.xib; sourceTree = "<group>"; };
 		B00CC74C1DF771E80082A026 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		B00CC7541DF77B020082A026 /* ModalViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewViewController.swift; sourceTree = "<group>"; };
+		B00CC7551DF77B020082A026 /* ModalViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +95,10 @@
 		B00CC6F81DF770E40082A026 = {
 			isa = PBXGroup;
 			children = (
+				B00CC7021DF770E40082A026 /* Products */,
 				B00CC7031DF770E40082A026 /* TabControllerAndNavigationControllerExample */,
 				B00CC7181DF770E40082A026 /* TabControllerAndNavigationControllerExampleTests */,
 				B00CC7231DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests */,
-				B00CC7021DF770E40082A026 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,10 +115,10 @@
 		B00CC7031DF770E40082A026 /* TabControllerAndNavigationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
-				B00CC7361DF771200082A026 /* Controllers */,
-				B00CC7341DF7710A0082A026 /* Views */,
-				B00CC7331DF771030082A026 /* Supporting */,
 				B00CC7321DF770F90082A026 /* Application */,
+				B00CC7361DF771200082A026 /* Controllers */,
+				B00CC7331DF771030082A026 /* Supporting */,
+				B00CC7341DF7710A0082A026 /* Views */,
 			);
 			path = TabControllerAndNavigationControllerExample;
 			sourceTree = "<group>";
@@ -122,8 +126,8 @@
 		B00CC7181DF770E40082A026 /* TabControllerAndNavigationControllerExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				B00CC7191DF770E40082A026 /* TabControllerAndNavigationControllerExampleTests.swift */,
 				B00CC71B1DF770E40082A026 /* Info.plist */,
+				B00CC7191DF770E40082A026 /* TabControllerAndNavigationControllerExampleTests.swift */,
 			);
 			path = TabControllerAndNavigationControllerExampleTests;
 			sourceTree = "<group>";
@@ -131,8 +135,8 @@
 		B00CC7231DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B00CC7241DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests.swift */,
 				B00CC7261DF770E50082A026 /* Info.plist */,
+				B00CC7241DF770E50082A026 /* TabControllerAndNavigationControllerExampleUITests.swift */,
 			);
 			path = TabControllerAndNavigationControllerExampleUITests;
 			sourceTree = "<group>";
@@ -142,28 +146,29 @@
 			children = (
 				B00CC7041DF770E40082A026 /* AppDelegate.swift */,
 			);
-			name = Application;
+			path = Application;
 			sourceTree = "<group>";
 		};
 		B00CC7331DF771030082A026 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
 				B00CC70B1DF770E40082A026 /* Assets.xcassets */,
-				B00CC70D1DF770E40082A026 /* LaunchScreen.storyboard */,
 				B00CC7101DF770E40082A026 /* Info.plist */,
+				B00CC70D1DF770E40082A026 /* LaunchScreen.storyboard */,
 			);
-			name = Supporting;
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 		B00CC7341DF7710A0082A026 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B00CC7391DF771530082A026 /* TabTwoPageTwoView */,
+				B00CC7531DF77AF20082A026 /* ModalView */,
 				B00CC7381DF771480082A026 /* TabOnePageTwoView */,
-				B00CC7371DF771370082A026 /* TabTwoView */,
 				B00CC7351DF771110082A026 /* TabOneView */,
+				B00CC7391DF771530082A026 /* TabTwoPageTwoView */,
+				B00CC7371DF771370082A026 /* TabTwoView */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B00CC7351DF771110082A026 /* TabOneView */ = {
@@ -172,7 +177,7 @@
 				B00CC7481DF771AE0082A026 /* TabOneViewController.swift */,
 				B00CC7491DF771AE0082A026 /* TabOneViewController.xib */,
 			);
-			name = TabOneView;
+			path = TabOneView;
 			sourceTree = "<group>";
 		};
 		B00CC7361DF771200082A026 /* Controllers */ = {
@@ -180,7 +185,7 @@
 			children = (
 				B00CC74C1DF771E80082A026 /* RootTabBarViewController.swift */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B00CC7371DF771370082A026 /* TabTwoView */ = {
@@ -189,7 +194,7 @@
 				B00CC7441DF771A10082A026 /* TabTwoViewController.swift */,
 				B00CC7451DF771A10082A026 /* TabTwoViewController.xib */,
 			);
-			name = TabTwoView;
+			path = TabTwoView;
 			sourceTree = "<group>";
 		};
 		B00CC7381DF771480082A026 /* TabOnePageTwoView */ = {
@@ -198,7 +203,7 @@
 				B00CC73E1DF7717B0082A026 /* TabOnePageTwoViewViewController.swift */,
 				B00CC73F1DF7717B0082A026 /* TabOnePageTwoViewViewController.xib */,
 			);
-			name = TabOnePageTwoView;
+			path = TabOnePageTwoView;
 			sourceTree = "<group>";
 		};
 		B00CC7391DF771530082A026 /* TabTwoPageTwoView */ = {
@@ -207,7 +212,16 @@
 				B00CC73A1DF7716A0082A026 /* TabTwoPageTwoViewController.swift */,
 				B00CC73B1DF7716A0082A026 /* TabTwoPageTwoViewController.xib */,
 			);
-			name = TabTwoPageTwoView;
+			path = TabTwoPageTwoView;
+			sourceTree = "<group>";
+		};
+		B00CC7531DF77AF20082A026 /* ModalView */ = {
+			isa = PBXGroup;
+			children = (
+				B00CC7541DF77B020082A026 /* ModalViewViewController.swift */,
+				B00CC7551DF77B020082A026 /* ModalViewViewController.xib */,
+			);
+			name = ModalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +336,7 @@
 			files = (
 				B00CC70F1DF770E40082A026 /* LaunchScreen.storyboard in Resources */,
 				B00CC7471DF771A10082A026 /* TabTwoViewController.xib in Resources */,
+				B00CC7571DF77B020082A026 /* ModalViewViewController.xib in Resources */,
 				B00CC74B1DF771AE0082A026 /* TabOneViewController.xib in Resources */,
 				B00CC70C1DF770E40082A026 /* Assets.xcassets in Resources */,
 				B00CC7411DF7717B0082A026 /* TabOnePageTwoViewViewController.xib in Resources */,
@@ -356,6 +371,7 @@
 				B00CC7461DF771A10082A026 /* TabTwoViewController.swift in Sources */,
 				B00CC7401DF7717B0082A026 /* TabOnePageTwoViewViewController.swift in Sources */,
 				B00CC7051DF770E40082A026 /* AppDelegate.swift in Sources */,
+				B00CC7561DF77B020082A026 /* ModalViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +413,7 @@
 				B00CC70E1DF770E40082A026 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -500,7 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L49SS68XP;
-				INFOPLIST_FILE = TabControllerAndNavigationControllerExample/Info.plist;
+				INFOPLIST_FILE = TabControllerAndNavigationControllerExample/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thexande.TabControllerAndNavigationControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9L49SS68XP;
-				INFOPLIST_FILE = TabControllerAndNavigationControllerExample/Info.plist;
+				INFOPLIST_FILE = TabControllerAndNavigationControllerExample/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thexande.TabControllerAndNavigationControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -598,6 +615,7 @@
 				B00CC72B1DF770E50082A026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B00CC72C1DF770E50082A026 /* Build configuration list for PBXNativeTarget "TabControllerAndNavigationControllerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +624,7 @@
 				B00CC72E1DF770E50082A026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B00CC72F1DF770E50082A026 /* Build configuration list for PBXNativeTarget "TabControllerAndNavigationControllerExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -614,6 +633,7 @@
 				B00CC7311DF770E50082A026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

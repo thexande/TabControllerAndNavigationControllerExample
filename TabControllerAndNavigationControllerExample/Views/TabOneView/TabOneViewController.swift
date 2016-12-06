@@ -1,5 +1,5 @@
 //
-//  TabTwoPageTwoViewController.swift
+//  TabOneViewController.swift
 //  TabControllerAndNavigationControllerExample
 //
 //  Created by Alexander Murphy on 12/6/16.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class TabTwoPageTwoViewController: UIViewController {
+class TabOneViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.title = "Tab One"
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +21,9 @@ class TabTwoPageTwoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func showPageTwoClicked(_ sender: Any) {
+        self.navigationController?.pushViewController(TabOnePageTwoViewViewController(), animated: true)
+    }
 
     /*
     // MARK: - Navigation
