@@ -221,7 +221,7 @@
 				B00CC7541DF77B020082A026 /* ModalViewViewController.swift */,
 				B00CC7551DF77B020082A026 /* ModalViewViewController.xib */,
 			);
-			name = ModalView;
+			path = ModalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
